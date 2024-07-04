@@ -1,12 +1,16 @@
+* {
+  text-align: right;
+}
+
 body {
-  background-image: url(http://images6.fanpop.com/image/photos/32100000/Assassin-s-Creed-Revelations-the-assassins-32112879-1920-1080.jpg);
+  background-image: url(https://wallpaperaccess.com/full/5112865.jpg);
   background-size: cover;
 }
 
-h2 {
+h2, p {
   color: #aa4139;
   text-align: center;
-  border: 5px dashed rgba(255, 176, 170, 0.5);
+  border: 5px dashed rgba(108, 17, 211, 0.5);
   cursor: pointer;
 }
 
@@ -15,10 +19,22 @@ p {
 }
 
 p {
-  color: green;
+  color: yellow;
 }
 
 li {
   list-style: square;
   display: inline-block;
+}
+
+.webtext {
+  border: 5px dashed green;
+}
+
+.active {
+  color: rgb(21, 245, 207);
+}
+
+#div1 {
+  background-color: rgba(0, 0, 0, 0.5);
 }
