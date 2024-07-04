@@ -1,11 +1,24 @@
+body {
+  background-image: url(http://images6.fanpop.com/image/photos/32100000/Assassin-s-Creed-Revelations-the-assassins-32112879-1920-1080.jpg);
+  background-size: cover;
+}
+
 h2 {
-  color: red;
+  color: #aa4139;
+  text-align: center;
+  border: 5px dashed rgba(255, 176, 170, 0.5);
+  cursor: pointer;
 }
 
 p {
   color: pink;
 }
 
-p{
-    color: green;
+p {
+  color: green;
+}
+
+li {
+  list-style: square;
+  display: inline-block;
 }
