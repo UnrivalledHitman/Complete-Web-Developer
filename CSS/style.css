@@ -7,7 +7,8 @@ body {
   background-size: cover;
 }
 
-h2, p {
+h2,
+p {
   color: #aa4139;
   text-align: center;
   border: 5px dashed rgba(108, 17, 211, 0.5);
@@ -22,8 +23,17 @@ p {
   line-height: 20px;
   font-style: italic;
   font-weight: bold;
-  font-size: 80%;
+  font-size: 100%;
   font-family: "Poiret One", cursive;
+}
+
+footer{
+  clear: both;
+  text-align: center;
+}
+
+img {
+  float: left;
 }
 
 li {
