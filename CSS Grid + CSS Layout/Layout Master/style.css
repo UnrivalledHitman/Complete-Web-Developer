@@ -1,5 +1,6 @@
 body {
   margin: auto 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .zone {
@@ -22,12 +23,25 @@ body {
     inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
 }
 
+.box:hover {
+  -webkit-transform-shadow: rotate(-7deg);
+  -moz-transform-shadow: rotate(-7deg);
+  -o-transform-shadow: rotate(-7deg);
+  transform: rotate(-7deg);
+}
+
 /* NAV */
 .main-nav {
   display: flex;
   list-style-type: none;
   font-size: 0.7em;
   margin: 0;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 @media only screen and (max-width: 600px) {
@@ -58,6 +72,10 @@ a {
   height: 50vh;
 }
 
+.cover {
+  width: 30rem;
+}
+
 /* GRID */
 .grid-wrapper {
   display: grid;
@@ -75,7 +93,7 @@ a {
   margin: 20px;
 }
 
-footer{
+footer {
   text-align: center;
 }
 
